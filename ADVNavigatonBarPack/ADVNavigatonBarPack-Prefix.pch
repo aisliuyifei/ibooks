@@ -1,0 +1,23 @@
+//
+// Prefix header for all source files of the 'ADVNavigatonBarPack' target in the 'ADVNavigatonBarPack' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import <QuartzCore/QuartzCore.h>
+    #import <ImageIO/ImageIO.h>
+    #import "ThemeManager.h"
+
+#endif
+#define SHELF_HEIGHT 140
+#define PADDING_W 20
+#define PADDING_H 15
+#define THUMB_W 80
+
